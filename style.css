@@ -1,0 +1,282 @@
+*{
+    margin: 0em;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-main{
+    width: 100%;
+    height: 135px;
+    background-color: rgb(53, 50, 50);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-main img{
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    
+}
+.nav-menu li{
+    list-style: none;
+    margin: 0 10px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: rgb(216, 211, 211);
+    font-size: 14px;
+}
+
+.nav-menu li a:hover{
+    border-bottom: 1px solid rgb(216, 211, 211);;
+}
+
+.spn{
+    margin-left: 15px;
+    color: rgb(216, 211, 211);
+}
+
+.nav-section{
+    max-width: 735px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    height: 460px;
+}
+
+.primary{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.primary p{
+    font-size: 22px;
+    color: rgb(70, 68, 68);
+}
+
+.primary p a{
+    text-decoration: none;
+    color: rgb(75, 148, 2);
+}
+
+.primary p a:hover{
+    background-color: rgb(75, 148, 2);
+    color: white;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgb(61, 60, 60);
+    padding-bottom: 15px;
+}
+
+.buttons{
+    padding-bottom: 5px;
+}
+
+.btn{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    width: 315px;
+    height: 85px;
+    background-color: rgb(60, 117, 3);
+    color: white;
+    border: none;
+    display: inline-block;
+    padding-top: 10px;
+    border-radius: 2px;
+}
+.btn small{
+    display: block;
+    height: 100%;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(50, 97, 3);
+}
+
+.secondary{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px
+}
+
+.secondary li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.secondary li a{
+    color: rgb(75, 148, 2);
+    margin: 0 10px;
+    text-decoration: none;
+    
+}
+
+.secondary li a:hover{
+    border-bottom: 1px solid rgb(75, 148, 2);
+    
+}
+
+.span{
+    color: rgb(145, 141, 141);
+}
+
+.secondary-paragraph{
+    font-size: 25px;
+    color: rgb(66, 66, 66);
+    padding-bottom: 30px;
+}
+
+.secondary-paragraph a{
+    color: rgb(75, 148, 2);
+    text-decoration: none;
+}
+
+.secondary-paragraph a:hover{
+    background-color: rgb(75, 148, 2);
+    color: white;
+}
+
+.secondary-paragraph-two{
+    font-size: 25px;
+    color: rgb(66, 66, 66);
+    
+}
+
+.secondary-paragraph-two a{
+    color: rgb(75, 148, 2);
+    text-decoration: none;
+}
+
+.secondary-paragraph-two a:hover{
+    background-color: rgb(75, 148, 2);
+    color: white;
+}
+
+.footer-main{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(53, 50, 50);
+}
+
+.footer-primary{
+    width: 70%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+
+.footer-primary li{
+    list-style: none;
+    display: flex;
+}
+
+.footer-primary li a{
+    text-decoration: none;
+    margin: 6px;
+    color: rgb(206, 195, 195);
+    font-size: 16px;
+}
+
+.footer-primary li a:hover{
+    border-bottom: 1px solid rgb(175, 169, 169);
+}
+
+.footer-primary img{
+    height: 80%;
+    padding-right: 100px;
+}
+
+.fspan{
+    color: rgb(175, 169, 169);
+    padding-top: 5px;
+}
+
+.footer-secondary{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.footer-secondary p{
+    color: white;
+    width: 70%;
+    margin-left: 120px;
+}
+
+.footer-three p a{
+    text-decoration: none;
+    color: rgb(206, 195, 195);
+}
+
+.footer-three{
+    width: 100%;
+}
+
+.footer-three p{
+    color: white;
+    width: 70%;
+    margin-left: 120px;
+}
+
+
+
+.footer-three p a:hover{
+    border-bottom: 1px solid rgb(175, 169, 169);
+}
+
+
+
+
+
+
+
+.foooter-finish {
+    width: 100%;
+    height: 100%;
+}
+
+.fin{
+    padding-top: 50px;
+}
+
+.fin p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(206, 195, 195);
+}
+
+.fin p a{
+    text-decoration: none;
+    color: rgb(75, 148, 2);
+}
+
+.fin p a:hover {
+    background-color: rgb(75, 148, 2);
+    color: white;
+}
